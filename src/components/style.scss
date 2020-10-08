@@ -1,0 +1,67 @@
+.users-list {
+  padding: 10px;
+  border-bottom: 2px solid lightgray;
+}
+.user {
+  background-color: inherit;
+  margin: 10px;
+  display: flex;
+  border: 2px solid lightgreen;
+  border-radius: 10px;
+  font-size: 14px;
+  &__logo {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span {
+      display: inline-block;
+      font-weight: bold;
+      margin-right: 10px;
+    }
+    img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      margin: 5px;
+      padding: 2px;
+      border: 2px solid white;
+    }
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0;
+    &_name {
+      font-weight: bold;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    &_penalty {
+      span {
+        color: lightgrey;
+      }
+    }
+  }
+  &__info_speed {
+    span {
+      color: lightgrey;
+      margin-right: 5px;
+    }
+    .speed {
+      color: mediumblue;
+    }
+  }
+}
+
+.toggleViolet {
+  color: blueviolet !important;
+}
+.toggleBorder{
+  border: 2px solid blueviolet !important;
+}
+.toggleOrange {
+  color: orange !important;
+}
