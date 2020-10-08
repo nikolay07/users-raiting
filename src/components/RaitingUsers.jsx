@@ -12,7 +12,7 @@ const RaitingUsers = () => {
   const fetchUsersList = () => {
     setTimeout(() => {
       setUsers(users.concat(userList));
-    }, 2000);
+    }, 1500);
   };
  
   return (
