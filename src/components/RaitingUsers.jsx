@@ -23,7 +23,7 @@ const RaitingUsers = () => {
         next={fetchUsersList}
         hasMore={true}
         loader={
-          <Loader type="ThreeDots" color="#00BFFF" height={80} width={80} />
+          <Loader type="ThreeDots" color="lightgray" height={80} width={80} />
         }
       >
         {users.map((user, index) => (

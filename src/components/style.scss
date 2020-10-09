@@ -6,22 +6,24 @@
   background-color: inherit;
   margin: 10px;
   display: flex;
-  border: 2px solid lightgreen;
+  // border: 2px solid lightgreen;
   border-radius: 10px;
   font-size: 14px;
+  font-weight: 500;
+  height: 70px;
+  line-height: 16px;
   &__logo {
-    padding: 10px;
+    padding: 10px 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     span {
       display: inline-block;
       font-weight: bold;
-      margin-right: 10px;
-    }
+          }
     img {
-      width: 70px;
-      height: 70px;
+      width: 50px;
+      height: 50px;
       border-radius: 50%;
       margin: 5px;
       padding: 2px;
