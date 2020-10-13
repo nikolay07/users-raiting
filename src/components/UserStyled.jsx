@@ -22,7 +22,7 @@ const UserStyled = ({ id, name, avatar, speed, time, color }) => {
     <div id={id} className="user" onClick={handleClick}>
       <div className="user__logo">
         {active ? <StyledText color={color.blueviolet} text={id} /> : <span>{id} </span>}
-        {active ? <ImageBorder img={avatar} border-color={color.blueviolet} /> : <img src={avatar} alt="avatar" />}
+        {active ? <ImageBorder img={avatar} borderColor={color.blueviolet} /> : <img src={avatar} alt="avatar" />}
       </div>
       <div className="user__info">
         <div className="user__info_name">
