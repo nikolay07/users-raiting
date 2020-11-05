@@ -1,3 +1,7 @@
+# Users raiting
+
+### Go **[users-raiting](https://nikolay07.github.io/users-raiting/)** for live demo.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +70,16 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### In this project was used the following technologies:
+
+- [HTML5]
+- [CSS3]
+- [Sass]
+- [JS-ES6]
+- [ReactJS]
+- [React infinite scroll]
+- [React loader spinner]
+- [Prop types]
+- [Gh page]
+
